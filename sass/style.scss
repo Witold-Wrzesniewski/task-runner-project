@@ -1,3 +1,23 @@
-h1 {
-    font-family: "Playwrite RO", cursive;
+/*header*/
+header h1 {
+    //font-family: "Playwrite RO", cursive;
+    text-transform: uppercase;
+}
+header h3 {
+    text-transform: capitalize;
+    font-style: italic;
+}
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 0;
+    background: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
 }
