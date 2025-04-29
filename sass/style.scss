@@ -59,10 +59,28 @@ header {
 }
 
 /*services*/
-.services i {
-    display: inline-block;
-    border: 2px solid gold;
-    border-radius: 50%;
-    color: gold;
-    padding: 10px;
+.services {
+    i {
+        display: inline-block;
+        border: 2px solid gold;
+        border-radius: 50%;
+        color: gold;
+        padding: 10px;
+    }
+}
+.my-card {
+    text-align: center;
+    h3 {
+        font-size: 16px;
+    }
+}
+.section-header {
+    padding: 20px;
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+    }
+    p {
+        font-style: italic;
+    }
 }
