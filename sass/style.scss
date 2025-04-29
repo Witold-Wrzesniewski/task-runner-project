@@ -126,6 +126,13 @@ header {
 /*footer*/
 footer {
     padding: 20px;
+    a {
+        color: #212529;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #000;
+    }
 }
 .copyright {
     font-size: 12px;
