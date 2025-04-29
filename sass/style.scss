@@ -129,6 +129,9 @@ footer {
     a {
         color: #212529;
         text-decoration: none;
+        .hidden {
+            font-size: 0;
+        }
     }
     a:hover {
         color: #000;
