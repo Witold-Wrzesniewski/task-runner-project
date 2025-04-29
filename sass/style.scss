@@ -70,6 +70,7 @@ header {
 }
 .my-card {
     text-align: center;
+    margin-bottom: 50px;
     h3 {
         font-size: 16px;
     }
@@ -77,10 +78,30 @@ header {
 .section-header {
     padding: 20px;
     text-align: center;
+    margin-bottom: 50px;
     h2 {
         text-transform: uppercase;
     }
     p {
         font-style: italic;
     }
+}
+
+/*portfolio*/
+.image-container {
+    position: relative;
+    text-align: left;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.card-img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio .my-card p {
+    font-style: italic;
 }
